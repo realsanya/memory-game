@@ -1,0 +1,13 @@
+.game-field {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 109px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, var(--card-size));
+    grid-gap: 14px;
+    margin: 0 109px;
+}

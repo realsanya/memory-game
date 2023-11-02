@@ -1,0 +1,19 @@
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--card-size);
+    height: var(--card-size);
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.card-wrapper--opened {
+    background-color: var(--color-grey);
+    cursor: default;
+}
+
+.card-wrapper--solved {
+    opacity: 0;
+    cursor: default;
+}

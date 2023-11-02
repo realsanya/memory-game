@@ -1,0 +1,15 @@
+.counter-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 190px;
+    word-wrap: break-word;
+}
+
+.counter-title {
+    color: var(--color-primary);
+}
+
+.counter-value {
+    color: var(--color-accent);
+}
